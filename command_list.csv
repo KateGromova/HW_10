@@ -1,0 +1,98 @@
+    1  clear
+    2  clear
+    3  git clone https://github.com/KateGromova/HW-10.git
+    4  ls
+    5  clear
+    6  git clone https://github.com/KateGromova/HW_10.git
+    7  cd HW_10
+    8  ls
+    9  ls-a
+   10  ls -a
+   11  cat gitignore
+   12  cat.gitignore
+   13  cat .gitignore
+   14  cd
+   15  mkdir Github
+   16  cd Github
+   17  git clone https://github.com/KateGromova/HW_10.git
+   18  cd HW_10
+   19  cd У
+   20  clear
+   21  cd /c/Users/Катя Громова/Github/HW_10
+   22  cd /c/Users/Катя \ Громова/Github/HW_10
+   23  cd"/c/Users/Катя Громова/Github/HW_
+   24  10
+   25  clear
+   26  cd "/c/Users/Катя Громова/Github/HW_10
+   27  pwd
+   28  cd /c/Users/Катя\ Громова/Github/HW_10
+   29  ls -a
+   30  git status
+   31  ls
+   32  cd"/c/Users/Катя Громова/Github/HW_10
+   33  cd"/c/Users/Катя Громова/Github/HW_10"
+   34  touch text_ignore.txt
+   35  ls
+   36  echo"text_ignore.txt">>gitignore
+   37  echo"text_ignore.txt" >> .gitignore
+   38  echo "text_ignore.txt" >> .gitignore
+   39  cat .gitignore
+   40  nano .gitignore
+   41  cat .gitignore
+   42  nano .gitignore
+   43  cat .gitignore
+   44  git commit -m " Исправлен .gitignore: добавлен text_ignore.txt"
+   45  git config --global user.name "KateGromova"
+   46  git config  --global user.email "kateryna.gromovaya@gmail.com"
+   47  git config --global --list
+   48  git add .gitignore 
+   49  git commit -m "Исправлен .gitignore: добавлен text_ignore.txt"
+   50  git pusg origin main
+   51  git push origin main
+   52  git status
+   53  git add .gitignore
+   54  git commit -m" Добавлен и исправлен .gitignore"
+   55  git push origin main
+   56  git status
+   57  git add .gitignore
+   58  git commit -m" Добавлен .gitignore в отслеживание"
+   59  git push origin main
+   60  git rm -r --cached .
+   61  git add .
+   62  git commit -m"Фикс:добавлен .gitignore в отслеживание"
+   63  git push origin main
+   64  git status
+   65  touch main_test.txt
+   66  ls
+   67  git add
+   68  git add .
+   69  git commit -m"Добавлен пустой файл main_test.txt"
+   70  git status
+   71  git log --oneline  -graph --decorate --all -n 5
+   72  git log --oneline --graph --decorate --all -n 5
+   73  git push origin main
+   74  git status
+   75  git checkout -b develop
+   76  git branch
+   77  touch develop_test.txt
+   78  ls
+   79  git add .
+   80  git commit -m"Создан файл develop_test.txt"
+   81  echo "just a small change" >> develop_test.txt
+   82  cat develop_test.txt
+   83  git status
+   84  git add .
+   85  git commit -m "Обновлен develop_test.txt:добаввлена строка"
+   86  git status
+   87  git checkout main
+   88  git branch
+   89  git merge develop
+   90  git log --oneline --graph --decorate -all -n 5
+   91  git log --oneline --graph --decorate --all -n 5
+   92  git push origin main
+   93  git commit --amend -m"Обновлен develop_test.txt:добавлена строка"
+   94  git push --force origin main
+   95  git log --online -n 5
+   96  fatal: unrecognized argument: --online
+   97  git log --oneline -n 5
+   98  history > command_list.csv
